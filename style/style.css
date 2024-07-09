@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header section start awlad.h */
+.header-container{
+    width: 1440px;
+    height: 652px;
+    border: 5px solid red;
+    margin: 0 auto;
+    background-image: url(../assets/Hero-bg.png);
+    margin-top: 20px;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-content .image{
+    width: 240.28px;
+    height: 240px;
+    margin-top: 26px;
+}
+.header-content .font h1{
+    font-size: 48px;
+    font-weight: 800px;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    margin-top: 32px;
+}
+.header-content .font p{
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    margin-top: 24px;
+}
+.header-content .font button{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 208px;
+    height: 66px;
+    padding: 21px 24px 21px 24px;
+    background-color: rgb(13, 19, 33);
+    border-radius: 8px;
+    margin-top: 32px;
+    margin-bottom: 44px;
+}
+/* header section start  awlad.h*/
