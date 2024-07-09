@@ -238,3 +238,72 @@
     border-radius: 16px;
 }
 /* My Inspiration end */
+/* i need support start */
+#need-container{
+    width: 1140px;
+    height: 313px;
+    border: 5px solid green;
+    margin: 0 auto;
+    background-image: url(../assets/handshake.jpg);
+    border-radius: 16px;
+    background-position: center;
+}
+#need-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 48px 64px 48px;
+}
+#need-content #child1 h1{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 16px;
+}
+#need-content #child1 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 24px;
+}
+#need-content #child2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 684px;
+    height: 57px;
+}
+#need-content #child2 input{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Azeret Mono", monospace;
+    color: rgba(13, 19, 33, 0.4);
+    text-align: left;
+    width: 548px;
+    height: 57px;
+    margin-top: 24px;
+    margin-right: 16px;
+    border-radius: 8px;
+    border: none;
+    padding: 7px;
+}
+#need-content #child2 button{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    width: 120px;
+    height: 57px;
+    margin-top: 24px;
+    border-radius: 8px;
+    border: none;
+    padding: 17px;
+}
+/* i need support end */
