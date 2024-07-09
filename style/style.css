@@ -6,7 +6,6 @@
 .header-container{
     width: 1440px;
     height: 652px;
-    border: 5px solid red;
     margin: 0 auto;
     background-image: url(../assets/Hero-bg.png);
     margin-top: 20px;
@@ -16,6 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 652px;
 }
 .header-content .image{
     width: 240.28px;
@@ -53,3 +53,153 @@
     margin-bottom: 44px;
 }
 /* header section start  awlad.h*/
+/* why web development start */
+#web-container{
+    width: 1140px;
+    height: 1393px;
+    margin: 0 auto;
+    margin-top: 74px;
+}
+#web-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 80px 97px 80px 97px;
+}
+#web-content #first h1{
+    font-size: 32px;
+    font-weight: 800px;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    margin-bottom: 24px;
+}
+#web-content #first p{
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(13, 19, 33);
+    text-align: center;
+}
+ #second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+    width: 850px;
+    height: 240px;
+    padding: 48px;
+}
+#second #child1 h1{
+    font-size: 24px;
+    font-weight: 700px;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(13, 19, 33);
+    text-align: left;
+    margin-bottom: 16px;
+}
+#second #child1 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(13, 19, 33);
+    text-align: left;
+}
+#second #child1 button{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px 12px 20px;
+    margin-top: 32px; 
+}
+#second #child2{
+    width: 259.56px;
+    height: 217.01px;
+    margin-left: 99.77px;
+}
+#third {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 850px;
+    height: 240px;
+    margin-top: 32px;
+    padding: 48px;
+}
+#third #child1{
+    width: 223.2;
+    height: 208.85;
+    margin-right: 48.8px;
+}
+#third #child2 h1{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Azeret Mono", monospace;
+    color: rgba(13, 19, 33, 0.7);
+    text-align: left;
+}
+#third #child2 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(13, 19, 33);
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+#third #child2 button{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    padding: 12px 20px 12px 20px;
+}
+#fourth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 48px;
+    width: 850px;
+    height: 240px;
+    margin-top: 32px;
+}
+#fourth #child1 h1{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Azeret Mono", monospace;
+    color: rgba(13, 19, 33, 0.7);
+    text-align: left;
+    margin-bottom: 16px;
+    margin-right: 220px;
+}
+#fourth #child1 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(13, 19, 33);
+    text-align: left;
+    margin-bottom: 32px;
+}
+#fourth #child1 button{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(13, 19, 33);
+    text-align:center;
+    padding: 12px 20px 12px 20px;
+}
+#fourth #child2{
+    width: 206.4px;
+    height: 187.32px;
+
+}
+/* why web development end /*
