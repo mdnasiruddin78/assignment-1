@@ -25,7 +25,7 @@
 .header-content .font h1{
     font-size: 48px;
     font-weight: 800px;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
     color: rgb(13, 19, 33);
     text-align: center;
     margin-top: 32px;
@@ -33,20 +33,25 @@
 .header-content .font p{
     font-size: 16px;
     font-weight: 400px;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
     color: rgb(13, 19, 33);
     text-align: center;
     margin-top: 24px;
 }
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 .header-content .font button{
     font-size: 20px;
     font-weight: 600;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
     width: 208px;
     height: 66px;
-    padding: 21px 24px 21px 24px;
     background-color: rgb(13, 19, 33);
     border-radius: 8px;
     margin-top: 32px;
@@ -70,7 +75,7 @@
 #web-content #first h1{
     font-size: 32px;
     font-weight: 800px;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
     color: rgb(13, 19, 33);
     text-align: center;
     margin-bottom: 24px;
@@ -78,7 +83,7 @@
 #web-content #first p{
     font-size: 16px;
     font-weight: 400px;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
     color: rgb(13, 19, 33);
     text-align: center;
 }
@@ -95,7 +100,7 @@
 #second #child1 h1{
     font-size: 24px;
     font-weight: 700px;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
     color: rgb(13, 19, 33);
     text-align: left;
     margin-bottom: 16px;
@@ -103,14 +108,14 @@
 #second #child1 p{
     font-size: 16px;
     font-weight: 400;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
     color: rgb(13, 19, 33);
     text-align: left;
 }
 #second #child1 button{
     font-size: 20px;
     font-weight: 600;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
     color: rgb(13, 19, 33);
     text-align: center;
     width: 171px;
@@ -141,14 +146,14 @@
 #third #child2 h1{
     font-size: 24px;
     font-weight: 700;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
     color: rgba(13, 19, 33, 0.7);
     text-align: left;
 }
 #third #child2 p{
     font-size: 16px;
     font-weight: 400;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
     color: rgb(13, 19, 33);
     text-align: left;
     margin-top: 16px;
@@ -157,7 +162,7 @@
 #third #child2 button{
     font-size: 20px;
     font-weight: 600;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
     color: rgb(13, 19, 33);
     text-align: center;
     padding: 12px 20px 12px 20px;
@@ -175,7 +180,7 @@
 #fourth #child1 h1{
     font-size: 24px;
     font-weight: 700;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
     color: rgba(13, 19, 33, 0.7);
     text-align: left;
     margin-bottom: 16px;
@@ -184,7 +189,7 @@
 #fourth #child1 p{
     font-size: 16px;
     font-weight: 400;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
     color: rgb(13, 19, 33);
     text-align: left;
     margin-bottom: 32px;
@@ -192,7 +197,7 @@
 #fourth #child1 button{
     font-size: 20px;
     font-weight: 500;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
     color: rgb(13, 19, 33);
     text-align: center;
     padding: 12px 20px 12px 20px;
@@ -218,7 +223,7 @@
 .my-content .child1 h1{
     font-size: 32px;
     font-weight: 800;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
     color: rgb(13, 19, 33);
     text-align: center;
     margin-bottom: 24px;
@@ -226,23 +231,24 @@
 .my-content .child1 p{
     font-size: 16px;
     font-weight: 400;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
     color: rgb(13, 19, 33);
     text-align: center;
     margin-bottom: 48px;
 }
-.my-content .child2 iframe{
+.my-content .child2 .iframe{
     width: 1076px;
     height: 550px;
     padding: 32px;
     border-radius: 16px;
+    overflow: hidden;
+    border: none;
 }
 /* My Inspiration end */
 /* i need support start */
 #need-container{
     width: 1140px;
     height: 313px;
-    border: 5px solid green;
     margin: 0 auto;
     background-image: url(../assets/handshake.jpg);
     border-radius: 16px;
@@ -258,7 +264,7 @@
 #need-content #child1 h1{
     font-size: 32px;
     font-weight: 700;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
     margin-bottom: 16px;
@@ -266,7 +272,7 @@
 #need-content #child1 p{
     font-size: 16px;
     font-weight: 400;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
     margin-bottom: 24px;
@@ -282,7 +288,7 @@
 #need-content #child2 input{
     font-size: 16px;
     font-weight: 400;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
     color: rgba(13, 19, 33, 0.4);
     text-align: left;
     width: 548px;
@@ -291,12 +297,11 @@
     margin-right: 16px;
     border-radius: 8px;
     border: none;
-    padding: 7px;
 }
 #need-content #child2 button{
     font-size: 20px;
     font-weight: 600;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Work Sans", sans-serif;
     color: rgb(13, 19, 33);
     text-align: center;
     width: 120px;
@@ -307,3 +312,48 @@
     padding: 17px;
 }
 /* i need support end */
+/* footer section start */
+.footer-container{
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.footet-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:  36px;
+    width: 1440px;
+    padding: 32px 150px 32px 150px ;
+}
+.center .child1 h4{
+    width: 456px;
+    height: 23px;
+    font-size: 20px;
+    font-weight: 600px;
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    margin-right: 526.99px;
+}
+.center .child2{
+    width: 157.01px;
+    height: 36px;
+    align-items: left;
+    justify-content: flex-start;
+}
+.controler .child2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+/* footer section end */
