@@ -132,16 +132,23 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: ;
     width: 850px;
     height: 240px;
     margin-top: 32px;
     padding: 48px;
+
 }
 #third #child1{
     width: 223.2;
     height: 208.85;
     margin-right: 48.8px;
+}
+#third #child2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 #third #child2 h1{
     font-size: 24px;
@@ -149,6 +156,8 @@
     font-family: "Work Sans", sans-serif;
     color: rgba(13, 19, 33, 0.7);
     text-align: left;
+    width: 477px;
+    height: 72px;
 }
 #third #child2 p{
     font-size: 16px;
