@@ -56,6 +56,7 @@
     border-radius: 8px;
     margin-top: 32px;
     margin-bottom: 44px;
+    text-decoration: none;
 }
 /* header section start  awlad.h*/
 /* why web development start */
@@ -426,9 +427,10 @@
     width: 1140px;
     height: 313px;
     margin: 0 auto;
-    background-image: url(../assets/handshake.jpg);
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../assets/handshake.jpg);
     border-radius: 16px;
     background-position: center;
+    l
 }
 #need-content{
     display: flex;
