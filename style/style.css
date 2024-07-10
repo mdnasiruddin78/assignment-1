@@ -236,15 +236,182 @@
     text-align: center;
     margin-bottom: 48px;
 }
-.my-content .child2 .iframe{
+.my-content .child2 iframe{
     width: 1076px;
     height: 550px;
     padding: 32px;
     border-radius: 16px;
-    overflow: hidden;
-    border: none;
 }
 /* My Inspiration end */
+/* My Current Target start */
+#target-container{
+    width: 1140px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 149px;
+    margin-bottom: 111px;
+}
+#target-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#target-content #child1{
+    width: 852px;
+    height: 115px;
+    margin-bottom: 48px;
+}
+#target-content #child1 h1{
+    font-size: 32px;
+    font-weight: 800;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    margin-bottom: 24px;
+}
+#target-content #child1 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(13, 19, 33);
+    text-align: center;
+}
+#child2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1140px;
+    height: 300px;
+    bottom: 0;
+}
+#child2 #child3{
+    width: 364px;
+    height: 300px;
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+#child2 #child3 img{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+#child2 #child3 h1{
+    font-size: 24px;
+    font-weight: 800;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(13, 19, 33);
+    text-align: left;
+    width: 284px;
+    height: 36px;
+    margin-bottom: 8px;
+}
+#child2 #child3 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(13, 19, 33);
+    text-align: left;
+    width: 284px;
+    height: 52px;
+    margin-bottom: 24px;
+}
+#child2 #child3 a{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(13, 19, 33);
+    text-align: left;
+    width: 284px;
+    height: 20px;
+}
+#child2 #child4{
+    width: 364px;
+    height: 300px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    margin-left: 24px;
+    padding: 40px;
+}
+#child2 #child4 img{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+#child2 #child4 h1{
+    font-size: 24px;
+    font-weight: 800;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(13, 19, 33);
+    text-align: left;
+    width: 284px;
+    height: 36px;
+    margin-bottom: 8px;
+}
+#child2 #child4 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(13, 19, 33);
+    text-align: left;
+    width: 284px;
+    height: 52px;
+    margin-bottom: 24px;
+}
+#child2 #child4 a{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(13, 19, 33);
+    text-align: left;
+    width: 284px;
+    height: 20px;
+}
+#child2 #child5{
+    width: 364px;
+    height: 300px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);;
+    margin-left: 24px;
+    padding: 40px;
+}
+#child2 #child5 img{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+#child2 #child5 h1{
+    font-size: 24px;
+    font-weight: 800;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(13, 19, 33);
+    text-align: left;
+    width: 284px;
+    height: 36px;
+    margin-bottom: 8px
+}
+#child2 #child5 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(13, 19, 33);
+    text-align: left;
+    width: 284px;
+    height: 52px;
+    margin-bottom: 24px;
+}
+#child2 #child5 a{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(13, 19, 33);
+    text-align: left;
+    width: 284px;
+    height: 20px;
+}
+/* My Current Target end */
 /* i need support start */
 #need-container{
     width: 1140px;
