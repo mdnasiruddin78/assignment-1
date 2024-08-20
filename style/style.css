@@ -16,6 +16,8 @@
     justify-content: center;
     align-items: center;
     height: 652px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 .header-content .image{
     width: 240.28px;
@@ -56,9 +58,12 @@
     border-radius: 8px;
     margin-top: 32px;
     margin-bottom: 44px;
-    text-decoration: none;
 }
-/* header section start  awlad.h*/
+.font a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/* header section end  awlad.h*/
 /* why web development start */
 #web-container{
     width: 1140px;
